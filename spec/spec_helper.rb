@@ -2,7 +2,7 @@ $testing = true
 SPEC = File.dirname(__FILE__)
 $:.unshift File.expand_path("#{SPEC}/../lib")
 
-require 'auto-terminal'
+require 'auto/terminal'
 require 'pp'
 
 Spec::Runner.configure do |config|
